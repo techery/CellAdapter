@@ -67,23 +67,42 @@ there is sample how to implement ButterKnife in Cells.
 
 ## Download
 
-The dependency is available via [jCenter](https://bintray.com/techery/android/celladapter). 
+The dependency is available via [jitpack](a).
 jCenter is the default Maven repository used by Android Studio.
 
 #### Gradle
+Add to root `build.gradle`
+```groovy
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Add to your project in dependencies.
 ```groovy
 dependencies {
-  compile 'io.techery:celladapter:1.0.1'
+    compile 'com.github.Daniil-Pavenko:CellAdapter:1.0.4'
 }
 ```
 
 #### Maven
 ```xml
+<repositories>
+	    <repository>
+		        <id>jitpack.io</id>
+		        <url>https://jitpack.io</url>
+	    </repository>
+</repositories>
+```
+
+```xml
 <dependency>
-  <groupId>io.techery</groupId>
-  <artifactId>celladapter</artifactId>
-  <version>1.0.1</version>
-  <type>pom</type>
+	    <groupId>com.github.Daniil-Pavenko</groupId>
+	    <artifactId>CellAdapter</artifactId>
+	    <version>1.0.4</version>
 </dependency>
 ```
 

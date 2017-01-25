@@ -84,7 +84,7 @@ allprojects {
 Add to your project in dependencies.
 ```groovy
 dependencies {
-    compile 'com.github.Daniil-Pavenko:CellAdapter:1.0.4'
+    compile 'com.github.Daniil-Pavenko:CellAdapter:1.0.5'
 }
 ```
 
@@ -102,7 +102,7 @@ dependencies {
 <dependency>
 	    <groupId>com.github.Daniil-Pavenko</groupId>
 	    <artifactId>CellAdapter</artifactId>
-	    <version>1.0.4</version>
+	    <version>1.0.5</version>
 </dependency>
 ```
 

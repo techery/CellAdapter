@@ -70,6 +70,8 @@ there is sample how to implement ButterKnife in Cells.
 The dependency is available via [jitpack](a).
 jCenter is the default Maven repository used by Android Studio.
 
+[![](https://jitpack.io/v/Daniil-Pavenko/CellAdapter.svg)](https://jitpack.io/#Daniil-Pavenko/CellAdapter)
+
 #### Gradle
 Add to root `build.gradle`
 ```groovy

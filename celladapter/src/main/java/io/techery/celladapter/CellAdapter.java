@@ -39,7 +39,7 @@ public class CellAdapter<ITEM> extends RecyclerView.Adapter<Cell> {
 		registerCell(itemClass, cellClass, null);
 	}
 
-	public void registerCell(Class<?> itemClass,
+	public <ITEM_CLASS>void registerCell(Class<? extends ITEM_CLASS> itemClass,
 							 Class<? extends Cell> cellClass,
 							 @Nullable Cell.Listener<?> cellListener) {
 		itemCellMap.put(itemClass, cellClass);
@@ -50,7 +50,7 @@ public class CellAdapter<ITEM> extends RecyclerView.Adapter<Cell> {
 		registerListener(itemClass, cellListener);
 	}
 
-	private void registerListener(Class<?> itemClass,
+	private <ITEM_CLASS>void registerListener(Class<? extends ITEM_CLASS> itemClass,
 								  @Nullable Cell.Listener<?> cellListener) {
 		int index = viewTypes.indexOf(itemClass);
 		if (index < 0)

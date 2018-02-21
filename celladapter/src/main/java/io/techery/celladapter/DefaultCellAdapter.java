@@ -1,15 +1,13 @@
-package io.techery.sample;
+package io.techery.celladapter;
 
 
 import android.content.Context;
 
-import io.techery.celladapter.CellAdapter;
-
 import java.util.List;
 
-public class BaseCellAdapter<ITEM> extends CellAdapter<ITEM> {
+public class DefaultCellAdapter<ITEM> extends CellAdapter<ITEM> {
 
-    public BaseCellAdapter(Context context) {
+    public DefaultCellAdapter(Context context) {
         super(context);
     }
 

@@ -1,6 +1,6 @@
 package io.techery.sample.home;
 
-import android.support.annotation.StringRes;
+import androidx.annotation.StringRes;
 
 public class MenuItem {
 

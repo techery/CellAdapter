@@ -1,7 +1,8 @@
 package io.techery.celladapter;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 public abstract class Cell<ITEM, LISTENER extends Cell.Listener<ITEM>> extends RecyclerView.ViewHolder {
 
